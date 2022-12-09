@@ -84,7 +84,7 @@ const NFTDetails = () => {
           </div>
         </div>
         <div className="mt-10 flex flex-col">
-          <div div className="w-full border-b dark:border-nft-black-1 border-nft-gray-1 flex flex-row">
+          <div  className="w-full border-b dark:border-nft-black-1 border-nft-gray-1 flex flex-row">
             <p className="font-poppins dark:text-white text-nft-black-1 font-medium text-base mb-2">Details</p>
           </div>
           <div className="mt-3">
