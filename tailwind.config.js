@@ -67,7 +67,7 @@ module.exports = {
       minlg: '2100px',
     },
     fontFamily: {
-      poppins: ['Poppins', 'sans-serif'],
+      poppins: ['Poppins', 'sans-serif', 'Amatic+SC'],
     },
   },
   variants: {

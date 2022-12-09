@@ -110,7 +110,7 @@ export const NFTProvider = ({ children }) => {
   };
   const fetchNFTs = async () => {
     setIsLoadingNFT(false);
-    const provider = new ethers.providers.JsonRpcProvider('https://wandering-serene-valley.bsc-testnet.quiknode.pro/20a11d685558ac948bd7aa9aa49dfea19cdd6ccb/');
+    const provider = new ethers.providers.JsonRpcProvider('https://distinguished-cold-owl.matic.quiknode.pro/b0077289d6d51159ee1c2cdffb84df1aab5fb63a/');
     const contract = fetchContract(provider);
     const data = await contract.fetchMarketItems();
 

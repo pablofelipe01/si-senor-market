@@ -26,7 +26,7 @@ const MenuItems = ({ isMobile, active, setActive, setIsOpen }) => {
             setActive(item);
             if (isMobile) setIsOpen(false);
           }}
-          className={`flex flex-row items-center font-poppins font-semibold text-base dark:hover:text-white hover:text-nft-dark mx-3
+          className={`flex flex-row items-center font-Amatic+SC font-Amatic+SC text-base dark:hover:text-white hover:text-nft-dark mx-3
      ${active === item ? 'dark:text-white text-nft-black-1' : 'dark:text-nft-gray-3 text-nft-gray-2'}
      `}
         >

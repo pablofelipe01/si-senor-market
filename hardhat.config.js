@@ -9,8 +9,8 @@ module.exports = {
     hardhat: {
       chainId: 1337,
     },
-    bsc: {
-      url: 'https://wandering-serene-valley.bsc-testnet.quiknode.pro/20a11d685558ac948bd7aa9aa49dfea19cdd6ccb/',
+    matic: {
+      url: 'https://distinguished-cold-owl.matic.quiknode.pro/b0077289d6d51159ee1c2cdffb84df1aab5fb63a/',
       accounts: [privateKey],
     },
     

@@ -1,6 +1,6 @@
 import market from './NFTMarketplace.json';
 
-export const MarketAddress = '0x03690356e1a27F853658a3DbFe3EA9624F0B921E';
+export const MarketAddress = '0x64aBe2D17A74a7cDBc42ded31113AE5bc0868896';
 export const MarketAddressABI = market.abi;
 
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = ({ name, childStyles, parentStyles }) => (
   <div className={`relative w-full flex items-center z-0 overflow-hidden nft-gradient ${parentStyles}`}>
-    <p className={`font-bold text-5xl text-white font-poppins leading-70 ${childStyles}`}>{name}</p>
+    <p className={`font-regular text-5xl text-white font-Amatic+SC leading-70 ${childStyles}`}>{name}</p>
     {/* ______________________________________ */}
     {/* los circulos, pero tengo dudas */}
     {/* <div className="absolute w-48 h-48 sm:w-32 sm:h-32 rounded-full -top-9 -left-16 -z-5 white-bg" />
