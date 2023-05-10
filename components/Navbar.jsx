@@ -19,7 +19,7 @@ const MenuItems = ({ active, setActive }) => {
   };
   return (
     <ul className="list-none flexCenter flex-row">
-      {['Explore NFTs', 'Listed NFTs', 'My NFTs'].map((item, i) => (
+      {['', '', 'My NFTs'].map((item, i) => (
         <li
           key={i}
           onClick={() => setActive(item)}
@@ -94,7 +94,7 @@ const Navbar = () => {
   }, [router.pathname]);
 
   return (
-    <nav className="flexBetween w-full fixed z-10 p-4 flex-row border-b dark:bg-nft-dark bg-white dark:border-nft-black-1 border-nft-gray-1">
+    <nav className="flexBetween w-full fixed z-10 p-4 flex-row justify-between border-b dark:bg-nft-dark bg-white dark:border-nft-black-1 border-nft-gray-1">
       <div className="flex flex-1 flex-row justify-start">
         <Link href="/">
           <div
@@ -109,22 +109,26 @@ const Navbar = () => {
               width={32}
               height={32}
               alt="logo"
+             
             />
-            <p className="dark:text-white text-nft-black-1 font-semibold text-lg ml-1"></p>
+            <p 
+            className="dark:text-white text-nft-black-1 font-semibold text-lg ml-1"></p>
           </div>
         </Link>
       </div>
 
       <div className="flex flex-initial flex-row justify-end">
-        <div className="flex items-center mr-2">
+        {/* <div className="flex items-center mr-2">
           <input type="checkbox" className="checkbox" id="checkbox" onChange={() => setTheme(theme === 'light' ? 'dark' : 'light')} />
           <label htmlFor="checkbox" className="flexBetween w-8 h-4 bg-black rounded-2xl p-1 relative label">
             <i className="fas fa-sun" />
             <i className="fas fa-moon" />
             <div className="w-3 h-3 absolute bg-white rounded-full ball" />
           </label>
-        </div>
-        {/* <MenuItems active={active} setActive={setActive} /> */}
+        </div> */}
+   
+
+        <MenuItems active={active} setActive={setActive} />
 
         <div className="ml-4">
           <ButtonGroup setActive={setActive} router={router} />
