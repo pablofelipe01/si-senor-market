@@ -10,7 +10,7 @@ module.exports = {
       chainId: 1337,
     },
     matic: {
-      url: 'https://distinguished-cold-owl.matic.quiknode.pro/b0077289d6d51159ee1c2cdffb84df1aab5fb63a/',
+      url: 'https://polygon-mainnet.g.alchemy.com/v2/FDU_3unRzBC_8n9qYDWsto1Mjob3mieS',
       accounts: [privateKey],
     },
     
